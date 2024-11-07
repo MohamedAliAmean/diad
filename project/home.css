@@ -1,0 +1,76 @@
+body {
+    margin: 75px;
+    background-color: black;
+    color: bisque;
+    font-family: cursive;
+
+}
+
+#nav {
+
+    list-style-type: none;
+    width: 100%;
+    top: 1%;
+    position: sticky;
+    background-color: papayawhip;
+}
+
+ul#nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul#nav a#H {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    background-color: rgb(7, 4, 0);
+
+}
+
+ul#nav li a#h:hover {
+    background-color: bisque;
+
+}
+
+ul#nav li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+#nav a:hover {
+    background-color: bisque;
+}
+
+div#div-span {
+    text-align: center;
+    background-image: url(image/equipment.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div#div-span span.spans {
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+    margin: 25px;
+    background-color: rgba(16, 16, 16, 0.442);
+    color: bisque;
+    border: 5px solid blanchedalmond;
+
+}
+
+#social {
+    text-align: center;
+}
+
+#social-media {
+    text-align: center;
+}
+
+div#social-media img {
+    width: 50px;
+}

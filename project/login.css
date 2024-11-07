@@ -1,0 +1,149 @@
+body {
+    background-image: url(image/photo-1534438327276-14e5300c3a48.jpeg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: Helvetica;
+    text-transform: capitalize;
+
+
+}
+
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: bisque;
+    border-radius: 5px;
+    padding: 20px 0;
+    width: 35%;
+    position: relative;
+    top: 25%;
+    left: 30%;
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 5px;
+    padding: 20px 0;
+    width: 35%;
+    min-height: 355px;
+    position: relative;
+    top: 25%;
+    left: 30%;
+}
+
+.login {
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid burlywood;
+    width: 60%;
+    transition-duration: 0.4s, 0.4s, 0s, 0.4s, 0.4s;
+    color: black;
+    margin: 8px 0px;
+}
+
+
+::placeholder {
+    color: black
+}
+
+input:focus::placeholder {
+    color: rgb(77, 68, 58)
+}
+
+input[type="email"]:focus {
+    width: 80%;
+    margin: 15px 0 10%;
+    outline: none;
+    height: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+input[type="email"]:hover {
+    width: 80%;
+    margin: 15px 0 10%;
+    outline: none;
+    height: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+input[type="password"]:focus {
+    width: 80%;
+    margin: 15px 0 10%;
+    outline: none;
+    height: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+input[type="password"]:hover {
+    width: 80%;
+    margin: 15px 0 10%;
+    outline: none;
+    height: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+p {
+    color: bisque;
+}
+
+p a {
+    color: rgba(255, 87, 34, 0.8);
+    font-weight: bold;
+    text-decoration: none;
+    transition: text-decoration 0.5s;
+    position: relative;
+
+}
+
+p a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgba(255, 87, 34, 0.8);
+    transition: width 0.5s ease;
+
+}
+
+p a:hover::after {
+    width: 100%;
+}
+
+
+#button button {
+    margin: 10px 0 5%;
+    background-color: rgba(0, 0, 0, 0.01);
+    border-radius: 20px;
+    padding: 7px;
+    text-align: center;
+    border: 2px solid bisque;
+    width: 35%;
+    color: bisque;
+    font-size: 17px;
+    cursor: pointer;
+    transition-property: box-shadow, background-color;
+    transition-duration: 0.5s, 0.5s
+}
+
+#button button:hover {
+    color: black;
+    background-color: bisque;
+    box-shadow: 0 0 40px bisque, 0 0 60px burlywood, 0 0 80px white
+}
+
+#button button:focus {
+    outline: none;
+}

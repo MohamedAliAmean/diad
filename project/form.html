@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div>
+        <form action="login.html" method="post">
+            <input type="text" id="username" class="form" placeholder="Nick-Name" required>
+            <br>
+            <input type="text" name="fname" class="form" id="fname" placeholder="First-Name" required>
+            <br>
+            <input type="text" name="lname" class="form" id="lname" placeholder="Last-Name" required>
+            <br>
+            <input type="text" name="Address" class="form" id="Address" placeholder="Address" required>
+            <br>
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+            <br>
+            <input type="password" name="pass-reg" id="pass-reg" placeholder="password" required>
+            <br>
+            <input type="tel" pattern="[0-9]{4}[0-9]{3}[0-9]{4}" name="phone" id="phone" placeholder="Phone" required>
+            <br>
+            <input type="date" name="Birthday" id="birthday" required>
+            <br>
+
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" r>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <br>
+            <input type="submit" id="submit" value="Register">
+            <input type="reset" name="reset" id="reset" value="Rest">
+            <br>
+            <input type="button" id="have-email" value="I Have An E-mail">
+        </form>
+
+    </div>
+
+</body>
+
+</html>

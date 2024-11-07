@@ -1,0 +1,206 @@
+body {
+    margin: 75px;
+    background-color: black;
+    color: bisque;
+    font-family: cursive;
+}
+
+#nav {
+
+    list-style-type: none;
+    width: 100%;
+    top: 1%;
+    position: sticky;
+    background-color: papayawhip;
+}
+
+ul#nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul#nav a#H {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    background-color: rgb(7, 4, 0);
+
+}
+
+ul#nav li a#h:hover {
+    background-color: bisque;
+
+}
+
+ul#nav li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+#nav a:hover {
+    background-color: bisque;
+}
+
+#namepage {
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    background-image: url(image/kettlebell.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: bisque;
+    width: 100%;
+    height: 150px;
+}
+
+div#category {
+    text-align: center;
+}
+
+div#category span.images {
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+    background-color: gray;
+    color: bisque;
+}
+
+div#category span img {
+    width: 200px;
+}
+
+div.frames {
+
+    height: 600px;
+    margin: 10px 75px;
+    text-align: center;
+}
+
+div.frames iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#crossfit1 {
+    background-image: url(image/crossfit2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+div#crossfit1 p:first-child {
+    font-family: cursive;
+
+    text-align: center;
+    font-size: 50px;
+    color: rgb(242, 228, 210);
+
+}
+
+div#crossfit1 p:nth-child(2) {
+    font-family: cursive;
+    text-align: justify;
+    font-size: 20px;
+    color: bisque;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid bisque;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.236);
+}
+
+
+
+
+
+div#crossfit2 {
+    justify-content: center;
+    text-align: center;
+}
+
+span.offer-span {
+    position: sticky;
+    justify-content: center;
+    display: inline-flex;
+}
+
+span.offer-span img {
+    width: 400px;
+    margin-left: 75px;
+    padding: 15px;
+    border: 5px solid rgb(199, 197, 197);
+
+}
+
+
+
+
+span.offer-span p {
+    width: 400px;
+    margin-right: 75px;
+    padding: 15px;
+    border: 5px solid rgb(199, 197, 197);
+    text-align: justify;
+}
+
+
+
+
+
+div#crossfit2 span.crossfit p {
+    text-align: justify;
+    justify-items: center;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+#body-building1 {
+    background-image: url(image/wieghtleft.avif);
+    opacity: 3;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+div#body-building1 p:first-child {
+    opacity: 1;
+    font-family: cursive;
+
+    text-align: center;
+    font-size: 50px;
+    color: bisque;
+
+}
+
+div#body-building1 p:nth-child(2) {
+    text-align: justify;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    color: bisque;
+    font-size: large;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid bisque;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.236);
+}
+
+div#body-building2 {
+    justify-content: center;
+    text-align: center;
+}
+
+span.bodyspan {
+    position: sticky;
+    justify-content: center;
+    display: inline-flex;
+}
+
+
+div#body-building2 span.bodyspan p {
+    text-align: justify;
+    justify-items: center;
+}
